@@ -70,6 +70,9 @@
 .header-contact-list .item {
   margin-right: 30px;
 }
+.header-contact-list .item:nth-child(2) {
+  margin-right: 0px;
+}
 .hero-section {
   text-align: center;
 }
