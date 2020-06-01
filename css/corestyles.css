@@ -25,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  padding: 0px;
+  margin: 0px;
 }
 a {
   text-decoration: none;
@@ -41,41 +41,4 @@ address {
 }
 p {
   margin: 0px;
-}
-
-.header-section {
-  outline: 1px solid red;
-  max-width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-.logo {
-  text-transform: capitalize;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  /* identical to box height */
-  letter-spacing: 0.03em;
-
-  display: inline-block;
-  background-color: red;
-  margin-right: 85px;
-}
-.logo-firsthalf {
-  color: var(--focused-color);
-}
-.logo-secondhalf {
-  color: black;
-}
-.nav-list {
-  display: flex;
-}
-.navigation {
-  display: flex;
-}
-.header-contact-list {
-  margin-left: auto;
-  display: flex;
 }
