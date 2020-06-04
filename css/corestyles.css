@@ -9,7 +9,7 @@
 }
 .body {
   background-color: var(--main-bgc-white);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   letter-spacing: 0.03em;
   color: var(--prime-text-color);
@@ -37,6 +37,7 @@ ul {
   list-style: none;
 }
 address {
+  font-style: normal;
   text-decoration: none;
 }
 p {
