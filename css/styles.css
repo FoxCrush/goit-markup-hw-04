@@ -307,18 +307,20 @@
   margin-bottom: 50px;
 }
 .clients .clients-list-item {
+  margin-right: 30px;
+  border-radius: 4px;
+}
+.clients .clients-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: calc((100% - 150px) / 6);
+  min-width: 170px;
   min-height: 90px;
-  margin-right: 30px;
-  border-radius: 4px;
-  border: 1px solid #afb1b8;
   fill: #afb1b8;
+  border: 1px solid #afb1b8;
 }
-.clients .clients-list-item:hover,
-.clients .clients-list-item:focus {
+.clients .clients-list-link:hover,
+.clients .clients-list-link:focus {
   fill: var(--focused-color);
   border-color: var(--focused-color);
   cursor: pointer;
